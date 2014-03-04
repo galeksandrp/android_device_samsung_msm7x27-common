@@ -1,4 +1,4 @@
-package com.cyanogenmod.settings.device;
+package com.android.settings.device;
 
 import android.app.AlertDialog;
 import android.content.Context;

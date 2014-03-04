@@ -1,4 +1,4 @@
-package com.cyanogenmod.settings.device;
+package com.android.settings.device;
 
 import android.app.ActivityManagerNative;
 import android.content.BroadcastReceiver;
@@ -9,7 +9,7 @@ import android.content.SharedPreferences;
 import android.os.RemoteException;
 import android.os.SystemProperties;
 import android.util.Log;
-import com.cyanogenmod.settings.device.R;
+import com.android.settings.device.R;
 
 public class GalaxyPartsStartup extends BroadcastReceiver {
 

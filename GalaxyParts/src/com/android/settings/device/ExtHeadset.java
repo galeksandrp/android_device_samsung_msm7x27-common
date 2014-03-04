@@ -1,4 +1,4 @@
-package com.cyanogenmod.settings.device;
+package com.android.settings.device;
 
 import android.app.AlertDialog;
 import android.content.Context;
@@ -8,16 +8,16 @@ import android.content.DialogInterface.OnClickListener;
 import android.content.res.Resources;
 import android.os.SystemProperties;
 import android.preference.Preference;
-import com.cyanogenmod.settings.device.R;
+import com.android.settings.device.R;
 
-final class ExtNMHeadset implements Preference.OnPreferenceClickListener {
+final class ExtHeadset implements Preference.OnPreferenceClickListener {
 
-	int device_index = 2;
+	int device_index = 1;
 	Context mContext;
 	Resources mResources;
 	int mSelected;
 
-	ExtNMHeadset(Context context, Resources resources) {
+	ExtHeadset(Context context, Resources resources) {
 		mContext = context;
 		mResources = resources;
 	}
@@ -35,7 +35,7 @@ final class ExtNMHeadset implements Preference.OnPreferenceClickListener {
 		}
 
 		AlertDialog.Builder dialog = new AlertDialog.Builder(mContext);
-		dialog.setTitle(mContext.getText(R.string.attn_nmheadset));
+		dialog.setTitle(mContext.getText(R.string.attn_headset));
 		dialog.setSingleChoiceItems(Constants.getExt(mResources), mSelected,
 				new OnClickListener() {
 

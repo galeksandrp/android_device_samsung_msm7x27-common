@@ -1,4 +1,4 @@
-package com.cyanogenmod.settings.device;
+package com.android.settings.device;
 
 import android.app.ActionBar;
 import android.app.ActivityManagerNative;
@@ -18,7 +18,7 @@ import android.view.MenuItem;
 import android.widget.CompoundButton;
 import android.widget.CompoundButton.OnCheckedChangeListener;
 
-import com.cyanogenmod.settings.device.R;
+import com.android.settings.device.R;
 
 public class DeviceSettings extends PreferenceActivity {
 

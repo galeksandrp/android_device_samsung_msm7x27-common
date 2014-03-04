@@ -1,4 +1,4 @@
-package com.cyanogenmod.settings.device;
+package com.android.settings.device;
 
 import android.app.AlertDialog;
 import android.content.Context;
@@ -7,7 +7,7 @@ import android.content.DialogInterface.OnClickListener;
 import android.content.res.Resources;
 import android.os.SystemProperties;
 import android.preference.Preference;
-import com.cyanogenmod.settings.device.R;
+import com.android.settings.device.R;
 
 final class CacheSize implements Preference.OnPreferenceClickListener {
 
